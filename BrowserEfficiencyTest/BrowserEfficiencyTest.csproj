@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F54DFCBE-CD4C-465A-8523-F1C79C3E05C4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BrowserEfficiencyTest</RootNamespace>
+    <AssemblyName>BrowserEfficiencyTest</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ElevatorClient">
+      <HintPath>..\Elevator\ElevatorClient\obj\Debug\ElevatorClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PerfProcessor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PerfProcessor\bin\Debug\PerfProcessor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.11.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.11.2\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.11.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.11.2\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arguments.cs" />
+    <Compile Include="CredentialManager.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="ResponsivenessTimer.cs" />
+    <Compile Include="ScenarioEventSourceProvider.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoIxbtCom.cs" />
+    <Compile Include="Scenarios\YandexStaticDemo3dnewsRu2.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoVkCom.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoHabrahabrRu.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoReddit.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoTechRadar.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoYandexRuSearch.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoYouTube6.cs" />
+    <Compile Include="Scenarios\YandexStaticWakeUpTabs.cs" />
+    <Compile Include="Scenarios\YandexStaticLongTabsInnerNav.cs" />
+    <Compile Include="Scenarios\YandexStaticShortTabsInnerNav.cs" />
+    <Compile Include="Scenarios\YandexStaticShortTabs.cs" />
+    <Compile Include="Scenarios\YandexStaticSlowMultiTabLoading.cs" />
+    <Compile Include="Scenarios\YandexStaticYandexRuBackground.cs" />
+    <Compile Include="Scenarios\YandexStaticPlayCanvasBmw.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoYouTube5.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoYouTube4.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoYouTube3.cs" />
+    <Compile Include="Scenarios\YandexStaticImagesJpg.cs" />
+    <Compile Include="Scenarios\YandexStaticImagesWebp.cs" />
+    <Compile Include="Scenarios\YandexStaticMp4LoopHttpsTLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256.cs" />
+    <Compile Include="Scenarios\YandexStaticMp4LoopHttpsTLS_RSA_WITH_AES_128_CBC_SHA.cs" />
+    <Compile Include="Scenarios\YandexStaticWebmOow.cs" />
+    <Compile Include="Scenarios\YandexTls12Aes128GcmSha256.cs" />
+    <Compile Include="Scenarios\YandexTls12Aes128Sha256.cs" />
+    <Compile Include="Scenarios\YandexTls12Aes128Sha.cs" />
+    <Compile Include="Scenarios\YandexTls12DheRsaAes256GcmSha384.cs" />
+    <Compile Include="Scenarios\YandexTls12Aes256GcmSha384.cs" />
+    <Compile Include="Scenarios\YandexTls12EcdheEcdsaAes128GcmSha256.cs" />
+    <Compile Include="Scenarios\YandexTls12EcdheRsaAes128Sha.cs" />
+    <Compile Include="Scenarios\YandexTls12EcdheEcdsaAes256GcmSha384.cs" />
+    <Compile Include="Scenarios\YandexTls12EcdheRsaAes256Sha.cs" />
+    <Compile Include="Scenarios\YandexTls11EcdheRsaAes256Sha.cs" />
+    <Compile Include="Scenarios\YandexTls10EcdheRsaAes256Sha.cs" />
+    <Compile Include="Scenarios\YandexTls12EcdheRsaAes128GcmSha256.cs" />
+    <Compile Include="Scenarios\YandexTls12Aes256Sha.cs" />
+    <Compile Include="Scenarios\YandexTls12EcdheEcdsaChaCha20Poly1305.cs" />
+    <Compile Include="Scenarios\YandexTls12EcdheRsaChaCha20Poly1305.cs" />
+    <Compile Include="Scenarios\YandexTls12EcdheRsaAes256GcmSha384.cs" />
+    <Compile Include="Scenarios\YandexTls12DesCbc3Sha.cs" />
+    <Compile Include="Scenarios\YandexStaticAmazonSearchFlash.cs" />
+    <Compile Include="Scenarios\YandexStaticBootstrapJavaScriptOffCSS.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoAdFilter1.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoYandexRu.cs" />
+    <Compile Include="Scenarios\YandexStaticDemo3dnewsRu.cs" />
+    <Compile Include="Scenarios\Idle.cs" />
+    <Compile Include="Scenarios\AboutBlank.cs" />
+    <Compile Include="Scenarios\BrainPopAvalanches.cs" />
+    <Compile Include="Scenarios\ColoradoStatesOfMatter.cs" />
+    <Compile Include="Scenarios\EspnHomepage.cs" />
+    <Compile Include="Scenarios\FastScenario.cs" />
+    <Compile Include="Scenarios\CnnOneStory.cs" />
+    <Compile Include="Scenarios\BbcNews.cs" />
+    <Compile Include="Scenarios\GooglePrimeFactorization.cs" />
+    <Compile Include="Scenarios\HistoryWWII.cs" />
+    <Compile Include="Scenarios\InstagramNYPL.cs" />
+    <Compile Include="Scenarios\IxlEighthGradeScience.cs" />
+    <Compile Include="Scenarios\LinkedInSatya.cs" />
+    <Compile Include="Scenarios\NewselaChineseNewYear.cs" />
+    <Compile Include="Scenarios\OfficeLauncher.cs" />
+    <Compile Include="Scenarios\OfficePowerpoint.cs" />
+    <Compile Include="Scenarios\OutlookEmail.cs" />
+    <Compile Include="Scenarios\OutlookOffice.cs" />
+    <Compile Include="Scenarios\PinterestExplore.cs" />
+    <Compile Include="Scenarios\PowerBiBrowse.cs" />
+    <Compile Include="Scenarios\ScholasticHarryPotter.cs" />
+    <Compile Include="Scenarios\RedditSurfaceSearch.cs" />
+    <Compile Include="Scenarios\KhanAcademyGrade8Math.cs" />
+    <Compile Include="Scenarios\TumblrTrending.cs" />
+    <Compile Include="Scenarios\TwitterPublic.cs" />
+    <Compile Include="Scenarios\YahooNews.cs" />
+    <Compile Include="RemoteWebDriverExtension.cs" />
+    <Compile Include="ScenarioRunner.cs" />
+    <Compile Include="Scenarios\FacebookNewsfeedScroll.cs" />
+    <Compile Include="Scenarios\GmailGoThroughEmails.cs" />
+    <Compile Include="Scenarios\Msn.cs" />
+    <Compile Include="Scenarios\Msnbc.cs" />
+    <Compile Include="Scenarios\TechRadarSurfacePro4Review.cs" />
+    <Compile Include="Scenarios\WikipediaUnitedStates.cs" />
+    <Compile Include="Scenarios\YandexBenchmarkJetStream.cs" />
+    <Compile Include="Scenarios\YandexBenchmarkSpeedometer.cs" />
+    <Compile Include="Scenarios\YandexBenchmarkMotionMark.cs" />
+    <Compile Include="Scenarios\YandexRedirectTo.cs" />
+    <Compile Include="Scenarios\YandexStaticAdFilterEnergy.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoYouTube2.cs" />
+    <Compile Include="Scenarios\YandexStaticHtml3d.cs" />
+    <Compile Include="Scenarios\YandexSberBank.cs" />
+    <Compile Include="Scenarios\YandexStaticAboutBlankNewTab.cs" />
+    <Compile Include="Scenarios\YandexStaticBootstrapNewTabFavicon.cs" />
+    <Compile Include="Scenarios\YandexStaticBootstrapNewTabNoFavicon.cs" />
+    <Compile Include="Scenarios\YandexStaticBackgroundTabThrottling.cs" />
+    <Compile Include="Scenarios\YandexStaticLongIdle.cs" />
+    <Compile Include="Scenarios\YandexStaticLongTabs.cs" />
+    <Compile Include="Scenarios\YandexStaticTranslateInfobar.cs" />
+    <Compile Include="Scenarios\YandexStaticVueJsExample1.cs" />
+    <Compile Include="Scenarios\YandexStaticSmoothScrolling.cs" />
+    <Compile Include="Scenarios\YandexStaticStatusBar.cs" />
+    <Compile Include="Scenarios\YandexStaticReadability.cs" />
+    <Compile Include="Scenarios\YandexStaticMp4H264.cs" />
+    <Compile Include="Scenarios\YandexStaticDemoYouTube1.cs" />
+    <Compile Include="Scenarios\YandexStaticYoutube.cs" />
+    <Compile Include="Scenarios\YandexStaticFavicon.cs" />
+    <Compile Include="Scenarios\YandexStaticFaviconChanging.cs" />
+    <Compile Include="Scenarios\YandexStaticEmptyNewTabNoFavicon.cs" />
+    <Compile Include="Scenarios\YandexStaticEmptyNewTabFavicon.cs" />
+    <Compile Include="Scenarios\YandexStaticWebm.cs" />
+    <Compile Include="Scenarios\YandexStaticWebmFullscreenSwitching.cs" />
+    <Compile Include="Scenarios\YandexStaticWebmFullscreen.cs" />
+    <Compile Include="Scenarios\YandexStaticYaRuNewTabFavicon.cs" />
+    <Compile Include="Scenarios\YandexStaticYaRuNewTabNoFavicon.cs" />
+    <Compile Include="Scenarios\YandexStaticSlowTabLoading.cs" />
+    <Compile Include="Scenarios\YandexStaticYaRuSameTab.cs" />
+    <Compile Include="Scenarios\YandexBenchmarkAres6.cs" />
+    <Compile Include="Scenarios\YandexCoubCom.cs" />
+    <Compile Include="Scenarios\YandexSberBankProxy.cs" />
+    <Compile Include="Scenarios\YandexWikipediaNewTab.cs" />
+    <Compile Include="Scenarios\YandexExpUdc.cs" />
+    <Compile Include="Scenarios\YandexYaRuSameTab.cs" />
+    <Compile Include="Scenarios\YandexYaRuNewTab.cs" />
+    <Compile Include="Scenarios\YandexStaticBootstrap.cs" />
+    <Compile Include="Scenarios\YandexStaticChartsJs.cs" />
+    <Compile Include="Scenarios\YandexStaticAboutBlankNewTabNavigation.cs" />
+    <Compile Include="Scenarios\YandexStaticWindowResize.cs" />
+    <Compile Include="Scenarios\YandexStaticGoogleChartsSteppedArea.cs" />
+    <Compile Include="Scenarios\YandexStaticD3Gears.cs" />
+    <Compile Include="Scenarios\YandexStaticBootstrapJavaScript.cs" />
+    <Compile Include="Scenarios\YelpSeattleDinner.cs" />
+    <Compile Include="Scenarios\YoutubeTrigonometry.cs" />
+    <Compile Include="Scenarios\YoutubeWatchVideo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scenario.cs" />
+    <Compile Include="Scenarios\AmazonSearch.cs" />
+    <Compile Include="Scenarios\GoogleSearch.cs" />
+    <Compile Include="Scenarios\ZillowSearch.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="WebPageReplay.cs" />
+    <Compile Include="RemoteAgent.cs" />
+    <Compile Include="WebSrv.cs" />
+    <Compile Include="WebDriverLog.cs" />
+    <Compile Include="Workload.cs" />
+    <Compile Include="WorkloadScenario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="credentials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="workloads.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Elevator\ElevatorServer\ElevatorServer.csproj">
+      <Project>{53ce5840-916d-42f1-8c6d-c2fceebe3ddc}</Project>
+      <Name>ElevatorServer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y "$(SolutionDir)\PerfProcessor\$(OutDir)\MeasureSetDefinitionAssets\*.*" "$(TargetDir)\MeasureSetDefinitionAssets\*"
+xcopy /Y "$(SolutionDir)\PerfProcessor\$(OutDir)\MeasureSetDefinitionAssets\*.*" "$(SolutionDir)\bin\MeasureSetDefinitionAssets\*"
+xcopy /Y "$(TargetDir)BrowserEfficiencyTest.exe" "$(SolutionDir)\bin\*"
+xcopy /Y "$(TargetDir)Newtonsoft.Json.*" "$(SolutionDir)\bin\*"
+xcopy /Y "$(TargetDir)WebDriver.*" "$(SolutionDir)\bin\*"
+xcopy /Y "$(TargetDir)WebDriver.Support.*" "$(SolutionDir)\bin\*"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WpaProfileContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="2" xmlns="http://tempuri.org/SerializableElement.xsd">
+  <Content xsi:type="WpaProfile2">
+    <Sessions>
+      <Session Index="0">
+        <FileReferences />
+      </Session>
+    </Sessions>
+    <Views>
+      <View Guid="efae1e94-c196-46d0-9732-02ec0fc015ef" Title="Analysis (3)" IsVisible="true">
+        <Graphs>
+          <Graph Guid="e2a7d340-0dbd-4f24-8b26-e5388eeaf562" LayoutStyle="All" Color="#FF008000" GraphHeight="125" IsMinimized="false" IsShown="true" IsExpanded="false">
+            <Preset Name="Activity by Process, Thread, Type" BarGraphIntervalCount="50" IsThreadActivityTable="false" GraphColumnCount="25" KeyColumnCount="10" LeftFrozenColumnCount="11" RightFrozenColumnCount="24" InitialFilterShouldKeep="true" GraphFilterTopValue="0" GraphFilterThresholdValue="0">
+              <MetadataEntries>
+                <MetadataEntry Guid="e2c7e540-4aeb-47e0-99ba-dacf63ec19cf" Name="End" ColumnMetadata="EndTime" />
+              </MetadataEntries>
+              <HighlightEntries />
+              <Columns>
+                <Column Guid="01cb52ab-5bb1-4cb6-9cff-e50ce2836e39" Name="Process" SortPriority="1" Width="150" IsVisible="true" />
+                <Column Guid="71a12a2f-ac40-4906-a979-5760738e4ad7" Name="Thread" SortPriority="2" TextAlignment="Right" Width="69" IsVisible="true" />
+                <Column Guid="db4da22c-8331-4243-9094-44f05969de01" Name="Event Type" SortPriority="3" Width="89" IsVisible="true" />
+                <Column Guid="dcefaad1-2b62-4311-a003-1fc61c0f7f7e" Name="Event SubType" SortPriority="4" Width="148" IsVisible="true" />
+                <Column Guid="f7732c29-62d3-4b32-ba4e-ced7ebe6b8ea" Name="Process Name" SortPriority="5" Width="130" IsVisible="false" />
+                <Column Guid="ecf6e842-d5da-4d95-84c7-63ab3b6cf318" Name="Stack" SortPriority="6" Width="170" IsVisible="false">
+                  <StackOptionsParameter Mode="StackTag" />
+                </Column>
+                <Column Guid="ecf6e842-d5da-4d95-84c7-63ab3b6cf318" Name="Stack" SortPriority="7" Width="170" IsVisible="false">
+                  <StackOptionsParameter Mode="FrameTags" />
+                </Column>
+                <Column Guid="ecf6e842-d5da-4d95-84c7-63ab3b6cf318" Name="Stack" SortPriority="8" Width="170" IsVisible="false">
+                  <StackOptionsParameter />
+                </Column>
+                <Column Guid="f793ebfb-acc0-44d3-bb35-b38d74d5ddaa" Name="Logging Process" SortPriority="9" TextAlignment="Right" Width="100" IsVisible="false" />
+                <Column Guid="00fe23ca-3361-4979-a1b5-4a052ea4a0c0" Name="Logging Thread" SortPriority="10" TextAlignment="Right" Width="100" IsVisible="false" />
+                <Column Guid="cb796d44-2927-5ac1-d231-4b71904c18f5" Name="Thread Name" SortPriority="11" Width="80" IsVisible="false" />
+                <Column Guid="82ddfdff-ee93-5f35-08ac-4705069618dc" Name="Thread Activity Tag" SortPriority="12" Width="80" IsVisible="false" />
+                <Column Guid="2818954f-2d30-5569-4510-dade0a5a605c" Name="Annotation" SortPriority="13" Width="80" IsVisible="false" />
+                <Column Guid="0f0fd63e-942e-441d-829b-3f921965cc9a" Name="Duration" AggregationMode="Sum" SortOrder="Ascending" SortPriority="0" TextAlignment="Right" Width="60" IsVisible="true" />
+                <Column Guid="9486726c-c3e8-4e83-bd9b-e99a5d4a54ea" Name="IRP" SortPriority="14" TextAlignment="Right" Width="160" CellFormat="x" IsVisible="true" />
+                <Column Guid="0f1f4c1a-2187-4fdd-ba62-693dd5ddb8d5" Name="File Object" SortPriority="15" TextAlignment="Right" Width="80" IsVisible="true" />
+                <Column Guid="8b8d220b-a24d-4773-81cb-6c6caebb084f" Name="Size" AggregationMode="Sum" SortPriority="16" TextAlignment="Right" Width="60" IsVisible="true" />
+                <Column Guid="0b043700-c82e-4d03-bc9c-ae7138093b47" Name="File Path" SortPriority="17" Width="704" IsVisible="true" />
+                <Column Guid="562233cc-2feb-4798-8fe9-bccdd1713c79" Name="Offset" SortPriority="18" TextAlignment="Right" Width="60" IsVisible="true" />
+                <Column Guid="b85964cd-412b-46fe-823c-f3f08a738fbd" Name="Flags" SortPriority="19" Width="150" IsVisible="true" />
+                <Column Guid="13e15a02-094f-4326-b5bd-e6721bdd3e87" Name="Result" SortPriority="20" Width="150" IsVisible="true" />
+                <Column Guid="1a6168db-c962-472b-9c4a-a04621f1dc03" Name="Count" AggregationMode="Count" SortPriority="21" TextAlignment="Right" Width="40" IsVisible="false" />
+                <Column Guid="26d231f4-e6e3-4ea0-b8f1-3c3cfacf067b" Name="Start" AggregationMode="Min" SortPriority="22" TextAlignment="Right" Width="60" IsVisible="true" />
+                <Column Guid="e2c7e540-4aeb-47e0-99ba-dacf63ec19cf" Name="End" AggregationMode="Max" SortPriority="23" TextAlignment="Right" Width="60" IsVisible="true" />
+              </Columns>
+            </Preset>
+          </Graph>
+        </Graphs>
+        <SessionIndices>
+          <SessionIndex>0</SessionIndex>
+        </SessionIndices>
+      </View>
+    </Views>
+    <ModifiedGraphs />
+  </Content>
+</WpaProfileContainer>

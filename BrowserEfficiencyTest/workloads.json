@@ -1,0 +1,718 @@
+[
+  {
+        "Name": "hobl2",
+        "Scenarios": [
+            {
+                "ScenarioName": "GmailGoThroughEmails",
+                "Tab": "new",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "BbcNews",
+                "Tab": "new",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "FacebookNewsfeedScroll",
+                "Tab": "new",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "YoutubeWatchVideo",
+                "Tab": "new",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "AmazonSearch",
+                "Tab": "same",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "WikipediaUnitedStates",
+                "Tab": "same",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "GoogleSearch",
+                "Tab": "same",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "EspnHomepage",
+                "Tab": "same",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "TwitterPublic",
+                "Tab": "same",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "InstagramNYPL",
+                "Tab": "same",
+                "Duration": 90
+            },
+            {
+                "ScenarioName": "RedditSurfaceSearch",
+                "Tab": "same",
+                "Duration": 90
+            }
+        ]
+    },
+    {
+    "Name": "representative",
+    "Scenarios": [
+      {
+        "ScenarioName": "GmailGoThroughEmails",
+        "Tab": "new",
+        "Duration": 90
+      },
+
+      {
+        "ScenarioName": "BbcNews",
+        "Tab": "new",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "YahooNews",
+        "Tab": "same",
+        "Duration": 90
+      },
+
+      {
+        "ScenarioName": "YoutubeWatchVideo",
+        "Tab": "new",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "FacebookNewsfeedScroll",
+        "Tab": "same",
+        "Duration": 90
+      },
+
+      {
+        "ScenarioName": "AmazonSearch",
+        "Tab": "new",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "WikipediaUnitedStates",
+        "Tab": "same",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "GoogleSearch",
+        "Tab": "same",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "EspnHomepage",
+        "Tab": "same",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "TwitterPublic",
+        "Tab": "same",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "InstagramNYPL",
+        "Tab": "same",
+        "Duration": 90
+      }
+    ]
+  },
+
+  {
+    "Name": "heavymultitab",
+    "Scenarios": [
+      {
+        "ScenarioName": "YoutubeWatchVideo",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "BbcNews",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YahooNews",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "AmazonSearch",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "FacebookNewsfeedScroll",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "GoogleSearch",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "GmailGoThroughEmails",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "WikipediaUnitedStates",
+        "Tab": "new"
+      }
+    ]
+  },
+
+  {
+    "Name": "simple",
+    "Scenarios": [
+      {
+        "ScenarioName": "WikipediaUnitedStates",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "GoogleSearch",
+        "Tab": "new"
+      }
+    ]
+  },
+
+  {
+    "Name": "education",
+    "Scenarios": [
+      {
+        "ScenarioName": "GooglePrimeFactorization",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YoutubeTrigonometry",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "GmailGoThroughEmails",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "IxlEighthGradeScience",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "ScholasticHarryPotter",
+        "Tab": "same"
+      },
+      {
+        "ScenarioName": "KhanAcademyGrade8Math",
+        "Tab": "same"
+      },
+      {
+        "ScenarioName": "HistoryWWII",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "NewselaChineseNewYear",
+        "Tab": "same"
+      },
+      {
+        "ScenarioName": "ColoradoStatesOfMatter",
+        "Tab": "same"
+      },
+      {
+        "ScenarioName": "BrainPopAvalanches",
+        "Tab":  "same"
+      }
+    ]
+  },
+  
+  {
+    "Name": "yandex",
+    "Scenarios": [
+      {
+        "ScenarioName": "AboutBlank",
+        "Tab": "new",
+        "Duration": 10
+      },
+      {
+        "ScenarioName": "AmazonSearch",
+        "Tab": "new",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "BrainPopAvalanches",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "FastScenario",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "GmailGoThroughEmails",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "IxlEighthGradeScience",
+        "Tab": "new",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "WikipediaUnitedStates",
+        "Tab": "new",
+        "Duration": 40
+      },
+      {
+        "ScenarioName": "YandexStaticBootstrap",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YandexStaticBootstrapJavaScript",
+        "Tab": "new"
+      },      
+      {
+        "ScenarioName": "YandexStaticChartsJs",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YandexStaticGoogleChartsSteppedArea",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YelpSeattleDinner",
+        "Tab": "new",
+        "Duration": 90
+      },
+      {
+        "ScenarioName": "YoutubeWatchVideo",
+        "Tab": "new"
+      }
+    ]
+  },
+  
+  {
+    "Name": "yandexstatic",
+    "Scenarios": [
+      {
+        "ScenarioName": "YandexStaticAboutBlankNewTabNavigation",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YandexStaticWebmFullscreen",
+        "Tab": "new"
+      },      
+      {
+        "ScenarioName": "YandexStaticBootstrap",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YandexStaticBootstrapJavaScript",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YandexStaticChartsJs",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YandexStaticD3Gears",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YandexStaticGoogleChartsSteppedArea",
+        "Tab": "new"
+      }
+    ]
+  },
+  
+  {
+    "Name": "yandextestinfinite",
+    "Scenarios": [	  
+      {
+        "ScenarioName": "YandexStaticReadability",
+        "Tab": "new",
+      },    
+      {
+        "ScenarioName": "YandexStaticYoutube",
+        "Tab": "new",
+      },   
+      {
+        "ScenarioName": "YandexStaticSmoothScrolling",
+        "Tab": "new",
+      },
+      {
+        "ScenarioName": "YandexStaticVueJsExample1",
+        "Tab": "new",		
+      },
+	  {
+        "ScenarioName": "AboutBlank",
+        "Tab": "new",
+		"Duration": 10
+      },
+      {
+        "ScenarioName": "YandexStaticAdFilterEnergy",
+        "Tab": "new",		
+      },
+	  {
+        "ScenarioName": "YandexStaticBootstrap",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YandexStaticBootstrapJavaScript",
+        "Tab": "new"
+      },
+	  
+      {
+        "ScenarioName": "YandexStaticBackgroundTabThrottling",
+        "Tab": "new",		
+      },      
+      {
+        "ScenarioName": "YandexStaticChartsJs",
+        "Tab": "new",
+      }
+    ]
+  },
+  
+  {
+    "Name": "benchmarketing",
+    "Scenarios": [	 
+	 
+      {
+        "ScenarioName": "YandexStaticAdFilterEnergy",
+        "Tab": "new"
+      },  
+	  {
+        "ScenarioName": "YandexStaticBackgroundTabThrottling",
+        "Tab": "new"
+      },
+      {
+        "ScenarioName": "YandexStaticFaviconChanging",
+        "Tab": "new",
+		"Duration": 10
+      },
+      {
+        "ScenarioName": "YandexStaticSmoothScrolling",
+        "Tab": "new"
+      },    
+      {
+        "ScenarioName": "YandexStaticYoutube",
+        "Tab": "new"
+      }, 
+      {
+        "ScenarioName": "YandexStaticSlowTabLoading",
+        "Tab": "new"		
+      }	  
+    ]
+  },
+  
+  {
+    "Name": "benchmarketing2",
+    "Scenarios": [
+	  {
+        "ScenarioName": "YandexStaticDemoYandexRu",
+        "Tab": "new"
+      },	  
+	  
+	  {
+        "ScenarioName": "YandexStaticDemoAdFilter1",
+        "Tab": "new"
+      },
+	  
+	  {
+        "ScenarioName": "YandexStaticDemoYouTube1",
+        "Tab": "new"
+      }, 
+	  
+      {
+        "ScenarioName": "YandexStaticFaviconChanging",
+        "Tab": "new",
+		"Duration": 7
+      },
+	  
+	  {
+        "ScenarioName": "YandexStaticDemoYouTube2",
+        "Tab": "new"
+      },
+
+      {
+        "ScenarioName": "YandexStaticSlowTabLoading",
+        "Tab": "new"		
+      },
+	  
+      {
+        "ScenarioName": "YandexStaticSmoothScrolling",
+        "Tab": "new"
+      },
+	  
+	  {
+        "ScenarioName": "YandexStaticDemo3dnewsRu",
+        "Tab": "new"
+      }
+    ]
+  },
+  
+{
+    "Name": "benchmarketing3_2",
+    "Scenarios": [
+	  {
+        "ScenarioName": "YandexStaticDemoYandexRu",
+        "Tab": "new"
+      },
+
+	{
+        	"ScenarioName": "YandexStaticDemoYouTube1",
+        	"Tab": "new"
+	}, 
+	  
+	{
+		"ScenarioName": "YandexStaticFaviconChanging",
+		"Tab": "new",
+		"Duration": 7
+	},
+	  
+	{
+		"ScenarioName": "YandexStaticDemoYouTube2",
+		"Tab": "new"
+	},
+
+	{
+        	"ScenarioName": "YandexStaticDemo3dnewsRu",
+        	"Tab": "new",
+		"Duration": 60
+	},	
+
+      {
+        "ScenarioName": "YandexStaticSlowTabLoading",
+        "Tab": "new"		
+      },
+	  
+      {
+        "ScenarioName": "YandexStaticSmoothScrolling",
+        "Tab": "new"
+      }
+    ]
+  },
+  
+  {
+    "Name": "benchmarketing3_3",
+    "Scenarios": [
+	  {
+        "ScenarioName": "YandexStaticDemoYandexRu",
+        "Tab": "new"
+      },
+
+	{
+        	"ScenarioName": "YandexStaticDemoYouTube1",
+        	"Tab": "new"
+	}, 
+	  
+	{
+		"ScenarioName": "YandexStaticFaviconChanging",
+		"Tab": "new",
+		"Duration": 7
+	},
+	  
+	{
+		"ScenarioName": "YandexStaticDemoYouTube2",
+		"Tab": "new"
+	},
+
+	{
+        	"ScenarioName": "YandexStaticDemo3dnewsRu",
+        	"Tab": "new",
+		"Duration": 180
+	},	
+
+      {
+        "ScenarioName": "YandexStaticSlowTabLoading",
+        "Tab": "new"		
+      },
+	  
+      {
+        "ScenarioName": "YandexStaticSmoothScrolling",
+        "Tab": "new"
+      }
+    ]
+  },
+  
+    
+	{
+		"Name": "benchmarketing3_4",
+		"Scenarios": [
+			{
+				"ScenarioName": "YandexStaticDemoYandexRu",
+				"Tab": "new",
+				"Duration": 90
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoYouTube1",
+				"Tab": "new"
+			}, 
+
+			{
+				"ScenarioName": "YandexStaticFaviconChanging",
+				"Tab": "new",
+				"Duration": 7
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoYouTube2",
+				"Tab": "new"
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemo3dnewsRu",
+				"Tab": "new",
+				"Duration": 180
+			},	
+
+			{
+				"ScenarioName": "YandexStaticSlowTabLoading",
+				"Tab": "new"		
+			},
+
+			{
+				"ScenarioName": "YandexStaticSmoothScrolling",
+				"Tab": "new"
+			}
+		]
+	},
+	
+	    
+	{
+		"Name": "benchmarkingYouTube",
+		"Scenarios": [			
+			{
+				"ScenarioName": "YandexStaticDemoYouTube3",
+				"Tab": "new"
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoYouTube4",
+				"Tab": "new"
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoYouTube5",
+				"Tab": "new"
+			}			
+		]
+	},
+  
+    
+	{
+		"Name": "benchmarketing3_5",
+		"Scenarios": [
+			{
+				"ScenarioName": "YandexStaticDemoYandexRu",
+				"Tab": "new",
+				"Duration": 10
+			}, 
+
+			{
+				"ScenarioName": "YandexStaticFaviconChanging",
+				"Tab": "new",
+				"Duration": 7
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoHabrahabrRu",
+				"Tab": "new"
+			},
+
+			{
+				"ScenarioName": "YandexStaticSlowTabLoading",
+				"Tab": "new"		
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoYouTube1",
+				"Tab": "new"
+			}, 
+
+			{
+				"ScenarioName": "YandexStaticFaviconChanging",
+				"Tab": "new",
+				"Duration": 7
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoHabrahabrRu",
+				"Tab": "new"
+			},
+
+			{
+				"ScenarioName": "YandexStaticSlowTabLoading",
+				"Tab": "new"		
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoYouTube2",
+				"Tab": "new"
+			},
+
+			{
+				"ScenarioName": "YandexStaticSmoothScrolling",
+				"Tab": "new"
+			}
+
+		]
+	},
+  
+    
+	{
+		"Name": "benchmarketing3_6",
+		"Scenarios": [
+			{
+				"ScenarioName": "YandexStaticDemoYandexRu",
+				"Tab": "new",
+				"Duration": 10
+			}, 
+
+			{
+				"ScenarioName": "YandexStaticFaviconChanging",
+				"Tab": "new",
+				"Duration": 7
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoHabrahabrRu",
+				"Tab": "new"
+			},
+
+			{
+				"ScenarioName": "YandexStaticSlowMultiTabLoading",
+				"Tab": "new"		
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoYouTube3",
+				"Tab": "new",
+				"Duration": 600
+			}, 
+
+			{
+				"ScenarioName": "YandexStaticFaviconChanging",
+				"Tab": "new",
+				"Duration": 7
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoHabrahabrRu",
+				"Tab": "new"
+			},
+
+			{
+				"ScenarioName": "YandexStaticSlowMultiTabLoading",
+				"Tab": "new"		
+			},
+
+			{
+				"ScenarioName": "YandexStaticDemoYouTube4",
+				"Tab": "new",
+				"Duration": 600
+			},
+
+			{
+				"ScenarioName": "YandexStaticSmoothScrolling",
+				"Tab": "new"
+			}
+
+		]
+	}
+ 
+]

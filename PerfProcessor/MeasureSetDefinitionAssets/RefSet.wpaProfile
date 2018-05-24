@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WpaProfileContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="2" xmlns="http://tempuri.org/SerializableElement.xsd">
+  <Content xsi:type="WpaProfile2">
+    <Sessions>
+      <Session Index="0">
+          <FileReferences>
+              <FileReference FileName="ActiveRegion.xml" ServiceMoniker="Regions.{51EF6868-EFEC-42A3-B284-1838673CC095}" />
+          </FileReferences>
+      </Session>
+    </Sessions>
+    <Views>
+      <View Guid="2c59d8a5-6be8-4b2e-8a9e-8e7698ece9f8" Title="Analysis" IsVisible="true">
+        <Graphs>
+          <Graph Guid="bc4f0890-4a76-4fe7-b014-6ae70677f8f5" LayoutStyle="DataTable" Color="#FF0000FF" GraphHeight="125" IsMinimized="false" IsShown="true" IsExpanded="false">
+            <Preset Name="RawData_without_PagePool" BarGraphIntervalCount="50" AggregationOverTime="OutstandingPeak" IsThreadActivityTable="false" GraphColumnCount="9" KeyColumnCount="2" LeftFrozenColumnCount="7" RightFrozenColumnCount="8" InitialFilterQuery="[Page Category]:&lt;&gt;PagedPool AND [Size w/o Offer (System View)]:&gt;0" InitialFilterShouldKeep="true" InitialExpansionQuery="[Series Name]:=&quot;Process Name&quot;" GraphFilterColumnGuid="fa54c0af-4d3e-4590-bcda-e8ba4f7cd490" GraphFilterTopValue="0" GraphFilterThresholdValue="0">
+              <MetadataEntries>
+                <MetadataEntry Guid="25731f8c-96b6-4dd4-b279-451bee5b38a2" Name="Access Time" ColumnMetadata="StartTime" />
+                <MetadataEntry Guid="fc96be34-cd0d-4613-98e9-fcf128170c6f" Name="Release Time (Mark Adjusted)" ColumnMetadata="EndTime" />
+              </MetadataEntries>
+              <HighlightEntries>
+                <HighlightEntry StartTimeColumnGuid="953f3733-3f8e-469f-b6d7-6e37898d1a08" StartTimeColumnName="Mark End Time" HighlightColor="#FFFF0000" />
+              </HighlightEntries>
+              <Columns>
+                <Column Guid="a9a21162-25a5-4da7-ba03-f4f4f5f9f580" Name="Process Name" SortPriority="1" Width="370" IsVisible="false" />
+                <Column Guid="accde649-ca35-462e-ac5d-fd751bcd3ff5" Name="Page Category" SortPriority="2" Width="127" IsVisible="false" />
+                <Column Guid="16415fd3-fb10-407a-80e4-fad3232b998f" Name="Category Class" SortPriority="3" Width="117" IsVisible="true" />
+                <Column Guid="25731f8c-96b6-4dd4-b279-451bee5b38a2" Name="Access Time" SortOrder="Ascending" SortPriority="0" Width="120" IsVisible="true" />
+                <Column Guid="639b6f10-ffcd-4b28-9c9e-7e4780744f45" Name="Release Time (Adjusted)" SortPriority="5" Width="177" IsVisible="true" />
+                <Column Guid="b04ae0c2-a36f-4840-a144-62c2a7b489f9" Name="Size w/o Offer (System View)" SortPriority="6" Width="217" CellFormat="B" IsVisible="true" />
+                <Column Guid="1524fd1c-d9dd-4818-9f8a-6e0d1f65eef2" Name="Allocation Time" AggregationMode="Count" SortPriority="7" Width="169" IsVisible="false" />
+                <Column Guid="fa54c0af-4d3e-4590-bcda-e8ba4f7cd490" Name="Impact Size w/o Offer (System View)" AggregationMode="Sum" SortPriority="8" Width="258" CellFormat="B" IsVisible="false" />
+                <Column Guid="b04ae0c2-a36f-4840-a144-62c2a7b489f9" Name="Size w/o Offer (System View)" AggregationMode="Peak" SortPriority="9" Width="215" CellFormat="B" IsVisible="false" />
+              </Columns>
+            </Preset>
+          </Graph>
+        </Graphs>
+        <SessionIndices>
+          <SessionIndex>0</SessionIndex>
+        </SessionIndices>
+      </View>
+    </Views>
+    <ModifiedGraphs>
+      <GraphSchema Guid="bc4f0890-4a76-4fe7-b014-6ae70677f8f5">
+        <ModifiedPresets>
+          <Preset Name="RawData_without_PagePool" BarGraphIntervalCount="50" AggregationOverTime="OutstandingPeak" IsThreadActivityTable="false" GraphColumnCount="9" KeyColumnCount="2" LeftFrozenColumnCount="7" RightFrozenColumnCount="8" InitialFilterQuery="[Page Category]:&lt;&gt;PagedPool AND [Size w/o Offer (System View)]:&gt;0" InitialFilterShouldKeep="true" InitialExpansionQuery="[Series Name]:=&quot;Process Name&quot;" GraphFilterColumnGuid="fa54c0af-4d3e-4590-bcda-e8ba4f7cd490" GraphFilterTopValue="0" GraphFilterThresholdValue="0">
+            <MetadataEntries>
+              <MetadataEntry Guid="25731f8c-96b6-4dd4-b279-451bee5b38a2" Name="Access Time" ColumnMetadata="StartTime" />
+              <MetadataEntry Guid="fc96be34-cd0d-4613-98e9-fcf128170c6f" Name="Release Time (Mark Adjusted)" ColumnMetadata="EndTime" />
+            </MetadataEntries>
+            <HighlightEntries>
+              <HighlightEntry StartTimeColumnGuid="953f3733-3f8e-469f-b6d7-6e37898d1a08" HighlightColor="#FFFF0000" />
+            </HighlightEntries>
+            <Columns>
+              <Column Guid="a9a21162-25a5-4da7-ba03-f4f4f5f9f580" Name="Process Name" SortPriority="1" Width="370" IsVisible="false" />
+              <Column Guid="accde649-ca35-462e-ac5d-fd751bcd3ff5" Name="Page Category" SortPriority="2" Width="127" IsVisible="false" />
+              <Column Guid="16415fd3-fb10-407a-80e4-fad3232b998f" Name="Category Class" SortPriority="3" Width="117" IsVisible="true" />
+              <Column Guid="25731f8c-96b6-4dd4-b279-451bee5b38a2" Name="Access Time" SortOrder="Ascending" SortPriority="0" Width="120" IsVisible="true" />
+              <Column Guid="639b6f10-ffcd-4b28-9c9e-7e4780744f45" Name="Release Time (Adjusted)" SortPriority="5" Width="177" IsVisible="true" />
+              <Column Guid="b04ae0c2-a36f-4840-a144-62c2a7b489f9" Name="Size w/o Offer (System View)" SortPriority="6" Width="217" CellFormat="B" IsVisible="true" />
+              <Column Guid="1524fd1c-d9dd-4818-9f8a-6e0d1f65eef2" Name="Allocation Time" AggregationMode="Count" SortPriority="7" Width="169" IsVisible="false" />
+              <Column Guid="fa54c0af-4d3e-4590-bcda-e8ba4f7cd490" Name="Impact Size w/o Offer (System View)" AggregationMode="Sum" SortPriority="8" Width="258" CellFormat="B" IsVisible="false" />
+              <Column Guid="b04ae0c2-a36f-4840-a144-62c2a7b489f9" Name="Size w/o Offer (System View)" AggregationMode="Peak" SortPriority="9" Width="215" CellFormat="B" IsVisible="false" />
+            </Columns>
+          </Preset>
+        </ModifiedPresets>
+        <PersistedPresets />
+      </GraphSchema>
+    </ModifiedGraphs>
+  </Content>
+</WpaProfileContainer>
